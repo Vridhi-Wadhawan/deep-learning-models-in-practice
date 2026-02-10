@@ -1,0 +1,24 @@
+# Core numerical & data handling
+numpy>=1.23
+pandas>=1.5
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Machine Learning
+scikit-learn>=1.2
+
+# Deep Learning
+torch>=2.0
+torchvision>=0.15
+tensorflow>=2.12
+keras>=2.12
+
+# Utilities
+tqdm>=4.65
+jupyter>=1.0
+ipykernel>=6.25
+
+# Data access
+kagglehub>=0.2
