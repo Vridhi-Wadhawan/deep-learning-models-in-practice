@@ -81,6 +81,8 @@ An applied computer vision project demonstrating:
 - Staged training and performance comparison
 This emphasises on efficient feature reuse and practical training strategies.
 
+*Note: While each project uses different data modalities, all follow this unified architecture to ensure consistency in experimentation and evaluation.*
+
 ---
 
 ## Evaluation Focus
