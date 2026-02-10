@@ -16,6 +16,27 @@ Rather than focusing on a single use case, this repository showcases breadth, de
 
 ---
 
+## System Architecture
+
+The following diagram illustrates the end-to-end system design shared across all projects in this repository.
+
+![System Architecture](architecture.png)
+
+### Architectural Flow
+- **Raw Data Sources**: Structured tabular data, text data, and image data depending on the use case
+- **Data Preprocessing**: Cleaning, normalization, tokenization, scaling, and encoding
+- **Feature Engineering**: Transforming raw inputs into model-ready representations
+- **Model Training**:
+  - Feedforward Neural Networks for structured data
+  - Recurrent Neural Networks (LSTM) for sequential text data
+  - Transfer Learning with pretrained CNNs for image data
+- **Model Evaluation**: Accuracy, precision, recall, F1-score, and convergence behavior
+- **Artifacts & Insights**: Trained models, metrics, and analytical insights for decision-making
+
+This architecture emphasizes **modularity, reproducibility, and comparative learning**, enabling consistent experimentation across different deep learning paradigms.
+
+---
+
 ## Case Studies Included
 
 ### 1. Neural Network Fundamentals
