@@ -84,6 +84,43 @@ This emphasises on efficient feature reuse and practical training strategies.
 
 ---
 
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Vridhi-Wadhawan/deep-learning-models-in-practice.git
+cd deep-learning-models-in-practice
+```
+2. Create and activate a virtual environment (recommended):
+```bash
+python -m venv venv
+source venv/bin/activate      # On Windows: venv\Scripts\activate
+```
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+4. Launch Jupyter Notebook
+5. Navigate to the relevant project folder and run the notebooks sequentially.
+
+---
+
+## Future Work
+
+This repository is designed as a learning-first and portfolio-focused project. Potential extensions include:
+
+- Hyperparameter tuning and architecture search for improved performance
+- Experimenting with modern architectures (Transformers for text, EfficientNet for vision)
+- Adding experiment tracking (TensorBoard / MLflow)
+- Model deployment using lightweight APIs (FastAPI / Streamlit)
+- Incorporating explainability techniques (SHAP, saliency maps)
+- Cross-project comparison dashboards for model performance
+
+These extensions are intentionally left out to keep the focus on core deep learning understanding and reasoning.
+
+---
+
 ## Notes
 
 - This repository is intended for portfolio demonstration of applied deep learning skills
